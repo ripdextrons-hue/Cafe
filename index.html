@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SoukAangan Cafe | Coffee & Cafe in Kathmandu</title>
+  <meta name="description" content="Discover SoukAangan Cafe in Kathmandu, Nepal. Your little corner of calm for coffee, comforting moments and conversations.">
+  <meta name="theme-color" content="#203D32">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header" id="header">
+  <a href="#home" class="logo">
+    <span class="logo-icon">S<span>·</span>A</span>
+    <span>SoukAangan<small>CAFE · KATHMANDU</small></span>
+  </a>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+  <nav class="nav" id="nav">
+    <a href="#home">Home</a>
+    <a href="#story">Our Story</a>
+    <a href="#menu">Menu</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#visit">Visit Us</a>
+    <a class="nav-button" href="https://www.google.com/maps/search/?api=1&query=SoukAangan%20Cafe%2C%20Kathmandu%2044600" target="_blank" rel="noopener">Get Directions ↗</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content reveal">
+      <p class="eyebrow light">WELCOME TO SOUKAANGAN</p>
+      <h1>Your Little<br><em>Corner of Calm.</em></h1>
+      <p class="hero-text">Good coffee, comforting moments, and a welcoming space to slow down in the heart of Kathmandu.</p>
+
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-light">Explore Our Menu ↘</a>
+        <a href="#visit" class="btn btn-outline">Find Our Cafe ↗</a>
+      </div>
+
+      <div class="hero-info">
+        <span class="stars">★★★★★</span>
+        <strong>4.6 / 5</strong>
+        <span class="separator"></span>
+        <span>7:00 AM – 7:00 PM*</span>
+      </div>
+    </div>
+
+    <a class="scroll-down" href="#story">↓ &nbsp; SCROLL TO EXPLORE</a>
+  </section>
+
+  <!-- STORY -->
+  <section class="story section" id="story">
+    <div class="story-image reveal">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1100&q=85" alt="Coffee prepared on a cafe table" loading="lazy">
+      <div class="image-label">A little pause in your day.</div>
+      <div class="round-label">GOOD<br>THINGS<br>TAKE TIME</div>
+    </div>
+
+    <div class="story-content reveal">
+      <p class="eyebrow">A PLACE TO PAUSE</p>
+      <h2>More Than a<br><em>Coffee Stop.</em></h2>
+      <p class="lead">Some places are made for a quick coffee. Others invite you to stay a little longer.</p>
+      <p>SoukAangan Cafe is a welcoming spot for everyday moments, meaningful conversations, and a little pause in your day. Come as you are, take a breath, and make room for something good.</p>
+      <a class="text-link" href="#visit">Come find your corner ↗</a>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu-section section" id="menu">
+    <div class="section-heading reveal">
+      <div>
+        <p class="eyebrow">SOMETHING FOR EVERY MOOD</p>
+        <h2>A Little Something<br><em>for Every Mood.</em></h2>
+      </div>
+      <p class="section-note">Explore sample café inspirations.<br><strong>Demo items, not a confirmed menu.</strong></p>
+    </div>
+
+    <div class="filters">
+      <button class="filter active" data-filter="all">Everything</button>
+      <button class="filter" data-filter="coffee">Coffee</button>
+      <button class="filter" data-filter="drinks">Tea & Drinks</button>
+      <button class="filter" data-filter="breakfast">Breakfast</button>
+      <button class="filter" data-filter="snacks">Light Bites</button>
+      <button class="filter" data-filter="dessert">Desserts</button>
+    </div>
+
+    <div class="menu-grid">
+      <article class="menu-card reveal" data-category="coffee">
+        <div class="menu-image">
+          <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=750&q=80" alt="Freshly prepared coffee" loading="lazy">
+          <span class="sample">Sample image</span>
+        </div>
+        <div class="menu-info">
+          <div><h3>Slow Coffee Moment</h3><p>A classic coffee ritual made for taking your time.</p></div>
+          <span>↗</span>
+        </div>
+      </article>
+
+      <article class="menu-card reveal" data-category="drinks">
+        <div class="menu-image">
+          <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=750&q=80" alt="Tea in a glass cup" loading="lazy">
+          <span class="sample">Sample image</span>
+        </div>
+        <div class="menu-info">
+          <div><h3>Tea Time</h3><p>A comforting warm drink for a slower afternoon.</p></div>
+          <span>↗</span>
+        </div>
+      </article>
+
+      <article class="menu-card reveal" data-category="breakfast">
+        <div class="menu-image">
+          <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=750&q=80" alt="Breakfast with fruit and pancakes" loading="lazy">
+          <span class="sample">Sample image</span>
+        </div>
+        <div class="menu-info">
+          <div><h3>Morning Table</h3><p>A bright, unhurried start to the day.</p></div>
+          <span>↗</span>
+        </div>
+      </article>
+
+      <article class="menu-card reveal" data-category="snacks">
+        <div class="menu-image">
+          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=750&q=80" alt="Freshly baked bread" loading="lazy">
+          <span class="sample">Sample image</span>
+        </div>
+        <div class="menu-info">
+          <div><h3>A Little Something</h3><p>A simple bite to go alongside your drink.</p></div>
+          <span>↗</span>
+        </div>
+      </article>
+
+      <article class="menu-card reveal" data-category="dessert">
+        <div class="menu-image">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=750&q=80" alt="Chocolate cake dessert" loading="lazy">
+          <span class="sample">Sample image</span>
+        </div>
+        <div class="menu-info">
+          <div><h3>Sweet Pause</h3><p>A little treat for a good moment.</p></div>
+          <span>↗</span>
+        </div>
+      </article>
+
+      <article class="menu-card reveal" data-category="coffee">
+        <div class="menu-image">
+          <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=750&q=80" alt="Iced coffee" loading="lazy">
+          <span class="sample">Sample image</span>
+        </div>
+        <div class="menu-info">
+          <div><h3>Chilled Coffee</h3><p>A cool coffee idea for warmer days.</p></div>
+          <span>↗</span>
+        </div>
+      </article>
+    </div>
+
+    <p class="disclaimer">Menu names and photos are illustrative placeholders. Confirm actual offerings and prices with the café before publishing.</p>
+    <a href="tel:+9779768549331" class="btn btn-dark">Ask About the Menu ↗</a>
+  </section>
+
+  <!-- FEATURE -->
+  <section class="feature">
+    <div class="feature-content reveal">
+      <p class="eyebrow light">THE EVERYDAY RITUAL</p>
+      <h2>Make room for<br><em>the little things.</em></h2>
+      <p>First sip. Familiar faces. A quiet table and a moment to yourself. The best café visits don't need a special occasion.</p>
+      <a class="text-link light-link" href="#gallery">Explore the mood ↗</a>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="why section">
+    <div class="section-heading centered reveal">
+      <p class="eyebrow">YOUR KIND OF PLACE</p>
+      <h2>Good reasons to <em>drop by.</em></h2>
+      <p>For everyday rituals, catch-ups, and little breaks in Kathmandu.</p>
+    </div>
+
+    <div class="benefit-grid">
+      <article class="benefit reveal"><span>✳</span><h3>A Welcoming Atmosphere</h3><p>A relaxed setting for taking a breath and settling in.</p></article>
+      <article class="benefit reveal"><span>◌</span><h3>Your Everyday Coffee Break</h3><p>A familiar pause between the busy parts of your day.</p></article>
+      <article class="benefit reveal"><span>⌁</span><h3>A Spot to Connect</h3><p>Make time for conversation with friends or yourself.</p></article>
+      <article class="benefit reveal"><span>↗</span><h3>In Kathmandu</h3><p>Find us near Maitghar Mandala, on St Xaviers Road.</p></article>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section section" id="gallery">
+    <div class="section-heading reveal">
+      <div><p class="eyebrow">A FEELING IN FRAMES</p><h2>A little look<br><em>around.</em></h2></div>
+      <p class="section-note">Illustrative café photography. Replace with actual business photos before launch.</p>
+    </div>
+
+    <div class="gallery-grid">
+      <button class="gallery-item tall" data-index="0" aria-label="View cafe interior">
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1000&q=85" alt="Cafe interior" loading="lazy"><span>Spaces to settle into ↗</span>
+      </button>
+      <button class="gallery-item" data-index="1" aria-label="View cafe details">
+        <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=85" alt="Cafe details" loading="lazy"><span>Everyday rituals ↗</span>
+      </button>
+      <button class="gallery-item" data-index="2" aria-label="View pastry">
+        <img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=900&q=85" alt="Fresh pastry" loading="lazy"><span>Little treats ↗</span>
+      </button>
+      <button class="gallery-item" data-index="3" aria-label="View latte">
+        <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=900&q=85" alt="Coffee and latte" loading="lazy"><span>Made for a pause ↗</span>
+      </button>
+      <button class="gallery-item wide" data-index="4" aria-label="View coffee preparation">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1200&q=85" alt="Coffee preparation" loading="lazy"><span>Slow mornings ↗</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- RATING -->
+  <section class="rating-section">
+    <p class="eyebrow light">A LITTLE LOVE FROM CUSTOMERS</p>
+    <div class="big-rating">4.6 <span>/ 5</span></div>
+    <div class="stars">★★★★★</div>
+    <p>Customer rating · supplied business information</p>
+    <a href="https://www.google.com/maps/search/?api=1&query=SoukAangan%20Cafe%2C%20Kathmandu%2044600" target="_blank" rel="noopener" class="text-link light-link">Find us on Google Maps ↗</a>
+  </section>
+
+  <!-- LOCATION -->
+  <section class="visit section" id="visit">
+    <div class="visit-content reveal">
+      <p class="eyebrow">COME ON OVER</p>
+      <h2>Find your way<br><em>to our corner.</em></h2>
+      <p class="visit-intro">A little pause is closer than you think. We look forward to welcoming you.</p>
+
+      <div class="detail">
+        <span class="detail-icon">⌖</span>
+        <div><h3>Find Us</h3><p>Back Side of Maitghar Mandala,<br>St Xaviers Road, 63 Gaurav Marg,<br>Kathmandu 44600, Nepal</p><small>Plus Code: M8V9+HX Kathmandu, Bagmati Province</small></div>
+      </div>
+
+      <div class="detail">
+        <span class="detail-icon">◷</span>
+        <div><h3>Opening Hours</h3><p>Open Daily · 7:00 AM – 7:00 PM*</p><small>*Hours supplied by the business; confirm before visiting.</small></div>
+      </div>
+
+      <div class="detail">
+        <span class="detail-icon">☏</span>
+        <div><h3>Call Us</h3><a href="tel:+9779768549331">+977 976-8549331</a></div>
+      </div>
+
+      <div class="visit-buttons">
+        <a class="btn btn-dark" href="https://www.google.com/maps/search/?api=1&query=SoukAangan%20Cafe%2C%20Back%20Side%20of%20Maitghar%20Mandala%2C%20St%20Xaviers%20Road%2C%20Kathmandu%2044600" target="_blank" rel="noopener">Get Directions ↗</a>
+        <a class="btn btn-outline-dark" href="tel:+9779768549331">Call the Cafe ↗</a>
+      </div>
+    </div>
+
+    <div class="map-card reveal">
+      <iframe
+        title="Google Maps search for SoukAangan Cafe in Kathmandu"
+        src="https://maps.google.com/maps?q=SoukAangan%20Cafe%2C%20Kathmandu%2044600&t=&z=14&ie=UTF8&iwloc=&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen>
+      </iframe>
+      <a href="https://www.google.com/maps/search/?api=1&query=SoukAangan%20Cafe%2C%20Kathmandu%2044600" target="_blank" rel="noopener" class="map-link">Open Google Maps ↗</a>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <div class="final-content reveal">
+      <p class="eyebrow light">YOUR TABLE IS CALLING</p>
+      <h2>Make Time for<br><em>Something Good.</em></h2>
+      <p>Your next coffee break could be just around the corner.</p>
+      <div class="hero-buttons">
+        <a class="btn btn-light" href="https://www.google.com/maps/search/?api=1&query=SoukAangan%20Cafe%2C%20Kathmandu%2044600" target="_blank" rel="noopener">Get Directions ↗</a>
+        <a class="btn btn-outline" href="tel:+9779768549331">Call the Cafe ↗</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <a href="#home" class="logo footer-logo">
+        <span class="logo-icon">S<span>·</span>A</span>
+        <span>SoukAangan<small>CAFE · KATHMANDU</small></span>
+      </a>
+      <p class="footer-description">A welcoming corner for coffee, conversations, and the everyday moments worth slowing down for.</p>
+    </div>
+
+    <div><h3>Explore</h3><a href="#story">Our Story</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#visit">Visit Us</a></div>
+
+    <div><h3>Find Us</h3><p>Back Side of Maitghar Mandala,<br>St Xaviers Road, 63 Gaurav Marg,<br>Kathmandu 44600, Nepal</p><a href="tel:+9779768549331">+977 976-8549331</a></div>
+
+    <div><h3>Opening Hours</h3><p>Open Daily<br>7:00 AM – 7:00 PM*</p><a href="https://www.google.com/maps/search/?api=1&query=SoukAangan%20Cafe%2C%20Kathmandu%2044600" target="_blank" rel="noopener">Get Directions ↗</a></div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> SoukAangan Cafe.</span>
+    <span>*Opening hours supplied by the business.</span>
+    <a href="#home">Back to top ↑</a>
+  </div>
+</footer>
+
+<!-- GALLERY LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery viewer" hidden>
+  <button id="closeLightbox" class="lightbox-close" aria-label="Close gallery">×</button>
+  <button id="prevImage" class="lightbox-prev" aria-label="Previous image">←</button>
+  <img id="lightboxImage" src="" alt="">
+  <button id="nextImage" class="lightbox-next" aria-label="Next image">→</button>
+  <p id="lightboxCaption"></p>
+</div>
+
+<button id="backTop" class="back-top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
